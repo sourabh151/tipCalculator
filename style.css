@@ -173,7 +173,7 @@ button:active{
   display: none;
 }
 
-@media (min-width: 1024px){
+@media (min-width: 1440lpx){
 	.whole-container{
 		width: 80%;
 	}
