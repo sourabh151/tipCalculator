@@ -4,6 +4,8 @@ var customTipEl = document.querySelector(".tip-custom");
 var output1 = document.querySelector("#output-label-1");
 var output2 = document.querySelector("#output-label-2");
 var reset = document.querySelector(".reset");
+var inputEl = document.querySelector("#heads-input");
+
 
 
 var amount = 0,
@@ -24,14 +26,12 @@ function getValues() {
   if (head === null) { head = 0; }*/
   if (headEl.value == 0) {
     document.querySelector("#is-zero").style.display = "block";
-    document.querySelector(".input-container").border = "5px solid red";
-    console.log(document.querySelector(".input-container"));
+    inputEl.style.border = "1px solid red";
 
   }
   else {
     document.querySelector("#is-zero").style.display = "none";
-    document.querySelector(".input-container").border = "none";
-    console.log(document.querySelector(".input-container"));
+    inputEl.style.border = "none"
 
   }
   calculateTip();
