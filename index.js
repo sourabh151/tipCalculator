@@ -26,7 +26,7 @@ function getValues() {
   if (head === null) { head = 0; }*/
   if (headEl.value == 0) {
     document.querySelector("#is-zero").style.display = "block";
-    inputEl.style.border = "1px solid red";
+    inputEl.style.border = "2px solid red";
 
   }
   else {
