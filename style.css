@@ -128,6 +128,7 @@ label{
 
 }
 input{
+  font-family: "Space Mono",monospace;
 	width: 100%;
 	border: none;
 	background-color: hsl(189, 41%, 97%);
@@ -150,6 +151,7 @@ input{
 	margin-bottom: 2rem;
 }
 .tips button{
+  font-family: "Space Mono",monospace;
 	background-color: hsl(183, 100%, 15%);
 	color: hsl(0, 0%, 100%);
 	padding-top: 0.7rem ;
