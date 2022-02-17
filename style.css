@@ -19,7 +19,7 @@
 	margin: 0;
 }
 html{
-	font-size: 10px;
+	font-size: 14px;
 }
 body{
 	font-family: "Space Mono",monospace;
@@ -40,7 +40,7 @@ body{
 }
 main{
 	display: flex;
-	width: 90%;
+	width: 100%;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
@@ -76,7 +76,7 @@ label{
 	border-top-left-radius: 1rem;
 	border-top-right-radius: 1rem;
 	background-color: hsl(0, 0%, 100%);
-	width: 100%;
+	width: 95%;
 	padding: 2rem;
 }
 .input label{
@@ -152,8 +152,8 @@ input{
 .tips button{
 	background-color: hsl(183, 100%, 15%);
 	color: hsl(0, 0%, 100%);
-	padding-top: 0.8rem ;
-	padding-bottom: 0.8rem ;
+	padding-top: 0.7rem ;
+	padding-bottom: 0.7rem ;
 	border-radius: 0.5rem;
 	border-style: none;
 	font-weight: 700;
